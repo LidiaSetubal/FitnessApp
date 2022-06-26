@@ -19,8 +19,13 @@ const BodyPart = ({ item, setBodyPart, bodyPart}) => {
       cursor: 'pointer',
       gap: '47px'
     }}
+    onClick={() => {
+      setBodyPart(item);
+    }}
     >
-      <img src={Icon} alt="dumbbell" styles={{ width: '40px', height: '40px'}} />
+      <img src={Icon} alt="dumbbell" style={{ width: '40px', height: '40px'}} />
+      <Typography fontSize="24px" fontWeight="bold"
+       color="#3A1212" textTransform="capitalize">{item}</Typography>
     </Stack>
   )
 }
