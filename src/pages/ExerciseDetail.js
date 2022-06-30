@@ -3,9 +3,14 @@ import { useParams } from 'react-router-dom';
 import { Box } from '@mui/material';
 
 import { exerciseOptions, fetchData } from '../utils/fetchData';
+
 const ExerciseDetail = () => {
   return (
-    <div>ExerciseDetail</div>
+    <Box>
+      <Detail />
+      <ExerciseVideos />
+      <SimilarExercises />
+    </Box>
   )
 }
 
