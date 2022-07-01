@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { Typography, Box, Stack } from '@mui/material';
 
-const SimilarExercises = () => {
-  return (
-    <div>SimilarExercises</div>
-  )
-}
+import HorizontalScrollbar from './HorizontalScrollbar';
+import Loader from './Loader';
 
-export default SimilarExercises
+export default SimilarExercises;
